@@ -91,5 +91,86 @@ table {
 /*CSS RESET*/
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: "Figtree", sans-serif;
+    color: var(--gray-950);
+    background-color: var(--yellow);
+    line-height: 150%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: var(--fs-300);
+}
+
+footer a {
+    color: var(--gray-500);
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: min-content;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    border: solid 1px var(--gray-950);
+    box-shadow: 0.5rem 0.5rem var(--gray-950);
+}
+
+.card__image {
+    border-radius: 0.625rem;
+}
+
+.card__content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card__status {
+    background-color: var(--yellow);
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.75rem;
+    font-size: var(--fs-300); 
+    font-weight: 800;
+}
+
+.card__date {
+    font-size: var(--fs-300);
+}
+
+.card h1 {
+    font-size: var(--fs-500);
+    font-weight: 800;
+}
+
+.card__body {
+    font-size: var(--fs-400);
+    color: var(--gray-500);
+}
+
+.card__portrait {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.card__portrait p {
+    font-size: var(--fs-300);
+    font-weight: 800;
 }
