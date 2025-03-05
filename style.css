@@ -159,6 +159,11 @@ footer a {
     font-weight: 800;
 }
 
+.card h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 .card__body {
     font-size: var(--fs-400);
     color: var(--gray-500);
