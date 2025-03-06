@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog card screenshot](./screenshot.jpg)
+![Blog card screenshot](./screenshot.png)
 ### Links
 
 - Solution URL: [frontendmentor.io/solutions/simple-solution-using-bem-and-semantic-html-GmQR8s-PuU](https://www.frontendmentor.io/solutions/simple-solution-using-bem-and-semantic-html-GmQR8s-PuU)
